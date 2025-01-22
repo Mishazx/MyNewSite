@@ -11,17 +11,17 @@
   box-sizing: border-box;
 }
 
-body {
+/* body {
   background-color: var(--dark);
   color: var(--text);
   font-family: 'Inter', sans-serif;
-}
+} */
 
-.app-container {
+/* .app-container {
   position: relative;
   min-height: 100vh;
-}
-
+} */
+/* 
 .background {
   position: fixed;
   top: 0;
@@ -75,4 +75,4 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-} 
+}  */

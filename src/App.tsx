@@ -5,17 +5,13 @@ import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 import './styles/App.css';
-import ImageBg from './assets/background.jpeg'
+import Background from './components/Background/Background';
 
 const App: React.FC = () => {
   return (
     <Router>
       <div className="app-container">
-        <img 
-          src={ImageBg} 
-          className="background-image"
-          alt="background"
-        />
+        <Background />
         <div className="app">
           <Navbar />
           <main>
