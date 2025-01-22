@@ -9,6 +9,7 @@ const Background = () => {
         className={styles.image}
         alt="background"
       />
+      <div className={styles.overlay} />
     </div>
   );
 }

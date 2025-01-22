@@ -7,7 +7,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 2rem;
-  background: rgba(2, 12, 27, 0.8);
+  /* background: rgba(2, 12, 27, 0.8); */
   backdrop-filter: blur(10px);
   z-index: 1000;
 }
