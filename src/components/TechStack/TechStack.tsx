@@ -27,10 +27,13 @@ import {
   SiSqlite,
   SiApache,
   SiKubernetes,
+  SiPycharm,
+  SiWebstorm,
+  SiAndroidstudio,
 } from 'react-icons/si';
 import { BiLogoJava } from 'react-icons/bi';
 import { TbBrandReactNative } from 'react-icons/tb';
-import { RiWindowsFill } from 'react-icons/ri';
+import { RiH2, RiWindowsFill } from 'react-icons/ri';
 import { VscVscode } from 'react-icons/vsc';
 import { IconType } from 'react-icons';
 
@@ -86,7 +89,8 @@ const technologies = {
     { icon: SiPostgresql, name: 'PostgreSQL' },
     { icon: SiMongodb, name: 'MongoDB' },
     { icon: SiMysql, name: 'MySQL'},
-    { icon: SiSqlite, name: 'Sqlite'}
+    { icon: SiSqlite, name: 'Sqlite'},
+    { icon: RiH2, name: 'H2'},
   ],
   os: [
     { icon: SiLinux, name: "Linux"},
@@ -99,6 +103,9 @@ const technologies = {
   editors: [
     { icon: SiVim, name: "Vim"},
     { icon: VscVscode, name: "VS Code"},
+    { icon: SiPycharm, name: "PyCharm"},
+    { icon: SiWebstorm, name: "WebStorm"},
+    { icon: SiAndroidstudio, name: "Android Studio"},
   ]
 };
 
