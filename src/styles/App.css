@@ -17,12 +17,12 @@
   font-family: 'Inter', sans-serif;
 } */
 
-/* .app-container {
+.app-container {
   position: relative;
   min-height: 100vh;
-} */
-/* 
-.background {
+}
+
+/* .background {
   position: fixed;
   top: 0;
   left: 0;
@@ -76,3 +76,40 @@ section {
   align-items: center;
   justify-content: center;
 }  */
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* Специальные стили для главной страницы */
+main > div[class*="hero"] {
+  width: 100%;
+  justify-content: flex-start;
+  padding-left: 0;
+}
+
+/* Стили для остальных страниц */
+main > div:not([class*="hero"]) {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+@media (max-width: 768px) {
+  main {
+    padding: 0 1rem;
+  }
+  
+  main > div[class*="hero"] {
+    padding-left: 1rem;
+  }
+  
+  main > div:not([class*="hero"]) {
+    padding: 0 1rem;
+  }
+}
